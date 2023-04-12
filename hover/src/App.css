@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.texto{
+  color: white;
+  margin: 90px;
+  font-size: 75px;
+  text-shadow: cyan 1px 0 10px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  margin: 60px;
+  border: 10px solid cyan;
+}
+
+.image2{
+  width: 500px;
+  height: 500px;
+  border: dotted #fc00ff;
+}
+
+.image3{
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  border: #009FFF   double 10px;
+}
+
+.image:hover {
+  transform: rotate(10deg);
+}
+
+
+.image2:hover{
+  transform: skewy(18deg)
+}
+
+
+.image3:hover {
+  transform: rotateY(60deg)
+}
+
+.texto:hover {
+  border: 20px  cornflowerblue double;
+  padding:10px;
+  text-align: center;
+}
